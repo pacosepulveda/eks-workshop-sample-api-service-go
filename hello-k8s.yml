@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
         - name: hello-k8s
-          image: no_existe
+          image: CONTAINER_IMAGE
           securityContext:
             privileged: false
             readOnlyRootFilesystem: true
